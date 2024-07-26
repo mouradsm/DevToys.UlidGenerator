@@ -1,0 +1,623 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "CommunityToolkit.Common/8.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "CommunityToolkit.Diagnostics/8.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Diagnostics.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Diagnostics.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "DevToys.Api/2.0.4-preview": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Common": "8.2.1",
+          "CommunityToolkit.Diagnostics": "8.2.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "OneOf": "3.0.263",
+          "SixLabors.ImageSharp": "3.1.4",
+          "System.ComponentModel.Composition": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/DevToys.Api.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/DevToys.Api.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0/af-ZA/DevToys.Api.resources.dll": {
+            "locale": "af-ZA"
+          },
+          "lib/net8.0/ar-SA/DevToys.Api.resources.dll": {
+            "locale": "ar-SA"
+          },
+          "lib/net8.0/bn-BD/DevToys.Api.resources.dll": {
+            "locale": "bn-BD"
+          },
+          "lib/net8.0/ca-ES/DevToys.Api.resources.dll": {
+            "locale": "ca-ES"
+          },
+          "lib/net8.0/cs-CZ/DevToys.Api.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "lib/net8.0/da-DK/DevToys.Api.resources.dll": {
+            "locale": "da-DK"
+          },
+          "lib/net8.0/de-DE/DevToys.Api.resources.dll": {
+            "locale": "de-DE"
+          },
+          "lib/net8.0/el-GR/DevToys.Api.resources.dll": {
+            "locale": "el-GR"
+          },
+          "lib/net8.0/en-GB/DevToys.Api.resources.dll": {
+            "locale": "en-GB"
+          },
+          "lib/net8.0/es-AR/DevToys.Api.resources.dll": {
+            "locale": "es-AR"
+          },
+          "lib/net8.0/es-ES/DevToys.Api.resources.dll": {
+            "locale": "es-ES"
+          },
+          "lib/net8.0/fi-FI/DevToys.Api.resources.dll": {
+            "locale": "fi-FI"
+          },
+          "lib/net8.0/fr-FR/DevToys.Api.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "lib/net8.0/he-IL/DevToys.Api.resources.dll": {
+            "locale": "he-IL"
+          },
+          "lib/net8.0/hi-IN/DevToys.Api.resources.dll": {
+            "locale": "hi-IN"
+          },
+          "lib/net8.0/hu-HU/DevToys.Api.resources.dll": {
+            "locale": "hu-HU"
+          },
+          "lib/net8.0/id-ID/DevToys.Api.resources.dll": {
+            "locale": "id-ID"
+          },
+          "lib/net8.0/is-IS/DevToys.Api.resources.dll": {
+            "locale": "is-IS"
+          },
+          "lib/net8.0/it-IT/DevToys.Api.resources.dll": {
+            "locale": "it-IT"
+          },
+          "lib/net8.0/ja-JP/DevToys.Api.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net8.0/kn-IN/DevToys.Api.resources.dll": {
+            "locale": "kn-IN"
+          },
+          "lib/net8.0/ko-KR/DevToys.Api.resources.dll": {
+            "locale": "ko-KR"
+          },
+          "lib/net8.0/kw-GB/DevToys.Api.resources.dll": {
+            "locale": "kw-GB"
+          },
+          "lib/net8.0/nb/DevToys.Api.resources.dll": {
+            "locale": "nb"
+          },
+          "lib/net8.0/nl-NL/DevToys.Api.resources.dll": {
+            "locale": "nl-NL"
+          },
+          "lib/net8.0/pl-PL/DevToys.Api.resources.dll": {
+            "locale": "pl-PL"
+          },
+          "lib/net8.0/pt-BR/DevToys.Api.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/pt-PT/DevToys.Api.resources.dll": {
+            "locale": "pt-PT"
+          },
+          "lib/net8.0/ro-RO/DevToys.Api.resources.dll": {
+            "locale": "ro-RO"
+          },
+          "lib/net8.0/ru-RU/DevToys.Api.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "lib/net8.0/sv-SE/DevToys.Api.resources.dll": {
+            "locale": "sv-SE"
+          },
+          "lib/net8.0/ta-IN/DevToys.Api.resources.dll": {
+            "locale": "ta-IN"
+          },
+          "lib/net8.0/te-IN/DevToys.Api.resources.dll": {
+            "locale": "te-IN"
+          },
+          "lib/net8.0/tr-TR/DevToys.Api.resources.dll": {
+            "locale": "tr-TR"
+          },
+          "lib/net8.0/uk-UA/DevToys.Api.resources.dll": {
+            "locale": "uk-UA"
+          },
+          "lib/net8.0/vi-VN/DevToys.Api.resources.dll": {
+            "locale": "vi-VN"
+          },
+          "lib/net8.0/zh-Hans/DevToys.Api.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/DevToys.Api.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "build": {
+          "build/DevToys.Api.props": {},
+          "build/DevToys.Api.targets": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
+        }
+      },
+      "OneOf/3.0.263": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/OneOf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/OneOf.dll": {}
+        }
+      },
+      "SixLabors.ImageSharp/3.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "System.ComponentModel.Composition/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.ComponentModel.Composition.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.ComponentModel.Composition.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Ulid/1.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Ulid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Ulid.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommunityToolkit.Common/8.2.1": {
+      "sha512": "LWuhy8cQKJ/MYcy3XafJ916U3gPH/YDvYoNGWyQWN11aiEKCZszzPOTJAOvBjP9yG8vHmIcCyPUt4L82OK47Iw==",
+      "type": "package",
+      "path": "communitytoolkit.common/8.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "communitytoolkit.common.8.2.1.nupkg.sha512",
+        "communitytoolkit.common.nuspec",
+        "lib/net6.0/CommunityToolkit.Common.dll",
+        "lib/net6.0/CommunityToolkit.Common.pdb",
+        "lib/net6.0/CommunityToolkit.Common.xml",
+        "lib/netstandard2.0/CommunityToolkit.Common.dll",
+        "lib/netstandard2.0/CommunityToolkit.Common.pdb",
+        "lib/netstandard2.0/CommunityToolkit.Common.xml",
+        "lib/netstandard2.1/CommunityToolkit.Common.dll",
+        "lib/netstandard2.1/CommunityToolkit.Common.pdb",
+        "lib/netstandard2.1/CommunityToolkit.Common.xml"
+      ]
+    },
+    "CommunityToolkit.Diagnostics/8.2.1": {
+      "sha512": "s8URwNarXZZLDtVf9B1AvdKMYg4tNFEuikjrMJYlwgAdSoQT0Y7W8mCYA2o2H+dKiCRVLJUXBdxflk/+QS9QBg==",
+      "type": "package",
+      "path": "communitytoolkit.diagnostics/8.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "communitytoolkit.diagnostics.8.2.1.nupkg.sha512",
+        "communitytoolkit.diagnostics.nuspec",
+        "lib/net6.0/CommunityToolkit.Diagnostics.dll",
+        "lib/net6.0/CommunityToolkit.Diagnostics.pdb",
+        "lib/net6.0/CommunityToolkit.Diagnostics.xml",
+        "lib/netstandard2.0/CommunityToolkit.Diagnostics.dll",
+        "lib/netstandard2.0/CommunityToolkit.Diagnostics.pdb",
+        "lib/netstandard2.0/CommunityToolkit.Diagnostics.xml",
+        "lib/netstandard2.1/CommunityToolkit.Diagnostics.dll",
+        "lib/netstandard2.1/CommunityToolkit.Diagnostics.pdb",
+        "lib/netstandard2.1/CommunityToolkit.Diagnostics.xml"
+      ]
+    },
+    "DevToys.Api/2.0.4-preview": {
+      "sha512": "L0SFVgNAnhuJ4V2wqQc7/wLkwjEw4ww8j0ZCnrSNqCgGxnrvz1oDiJ1CUplEmpef1bRTLDDcTgZdGqatQUzg6w==",
+      "type": "package",
+      "path": "devtoys.api/2.0.4-preview",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon-Windows-Linux.png",
+        "LICENSE.md",
+        "README.md",
+        "build/DevToys.Api.props",
+        "build/DevToys.Api.targets",
+        "devtoys.api.2.0.4-preview.nupkg.sha512",
+        "devtoys.api.nuspec",
+        "lib/net8.0/DevToys.Api.dll",
+        "lib/net8.0/DevToys.Api.xml",
+        "lib/net8.0/af-ZA/DevToys.Api.resources.dll",
+        "lib/net8.0/ar-SA/DevToys.Api.resources.dll",
+        "lib/net8.0/bn-BD/DevToys.Api.resources.dll",
+        "lib/net8.0/ca-ES/DevToys.Api.resources.dll",
+        "lib/net8.0/cs-CZ/DevToys.Api.resources.dll",
+        "lib/net8.0/da-DK/DevToys.Api.resources.dll",
+        "lib/net8.0/de-DE/DevToys.Api.resources.dll",
+        "lib/net8.0/el-GR/DevToys.Api.resources.dll",
+        "lib/net8.0/en-GB/DevToys.Api.resources.dll",
+        "lib/net8.0/es-AR/DevToys.Api.resources.dll",
+        "lib/net8.0/es-ES/DevToys.Api.resources.dll",
+        "lib/net8.0/fi-FI/DevToys.Api.resources.dll",
+        "lib/net8.0/fr-FR/DevToys.Api.resources.dll",
+        "lib/net8.0/he-IL/DevToys.Api.resources.dll",
+        "lib/net8.0/hi-IN/DevToys.Api.resources.dll",
+        "lib/net8.0/hu-HU/DevToys.Api.resources.dll",
+        "lib/net8.0/id-ID/DevToys.Api.resources.dll",
+        "lib/net8.0/is-IS/DevToys.Api.resources.dll",
+        "lib/net8.0/it-IT/DevToys.Api.resources.dll",
+        "lib/net8.0/ja-JP/DevToys.Api.resources.dll",
+        "lib/net8.0/kn-IN/DevToys.Api.resources.dll",
+        "lib/net8.0/ko-KR/DevToys.Api.resources.dll",
+        "lib/net8.0/kw-GB/DevToys.Api.resources.dll",
+        "lib/net8.0/nb/DevToys.Api.resources.dll",
+        "lib/net8.0/nl-NL/DevToys.Api.resources.dll",
+        "lib/net8.0/pl-PL/DevToys.Api.resources.dll",
+        "lib/net8.0/pt-BR/DevToys.Api.resources.dll",
+        "lib/net8.0/pt-PT/DevToys.Api.resources.dll",
+        "lib/net8.0/ro-RO/DevToys.Api.resources.dll",
+        "lib/net8.0/ru-RU/DevToys.Api.resources.dll",
+        "lib/net8.0/sv-SE/DevToys.Api.resources.dll",
+        "lib/net8.0/ta-IN/DevToys.Api.resources.dll",
+        "lib/net8.0/te-IN/DevToys.Api.resources.dll",
+        "lib/net8.0/tr-TR/DevToys.Api.resources.dll",
+        "lib/net8.0/uk-UA/DevToys.Api.resources.dll",
+        "lib/net8.0/vi-VN/DevToys.Api.resources.dll",
+        "lib/net8.0/zh-Hans/DevToys.Api.resources.dll",
+        "lib/net8.0/zh-Hant/DevToys.Api.resources.dll"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "sha512": "cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
+      "sha512": "arDBqTgFCyS0EvRV7O3MZturChstm50OJ0y9bDJvAcmEPJm0FFpFyjU/JLYyStNGGey081DvnQYlncNX5SJJGA==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/roslyn3.11/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn3.11/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn4.0/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn4.4/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "buildTransitive/net461/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/net462/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "OneOf/3.0.263": {
+      "sha512": "2xXFnUxkAA0rJ2sJz9FPeW/gzJIBvyj+xIvfTIkz42pz9JlcYse4/rwRnkmCsYxw6osy1whnBO6Ox6HBKEqDMw==",
+      "type": "package",
+      "path": "oneof/3.0.263",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/OneOf.dll",
+        "lib/net45/OneOf.dll",
+        "lib/netstandard1.3/OneOf.dll",
+        "lib/netstandard2.0/OneOf.dll",
+        "oneof.3.0.263.nupkg.sha512",
+        "oneof.nuspec"
+      ]
+    },
+    "SixLabors.ImageSharp/3.1.4": {
+      "sha512": "lFIdxgGDA5iYkUMRFOze7BGLcdpoLFbR+a20kc1W7NepvzU7ejtxtWOg9RvgG7kb9tBoJ3ONYOK6kLil/dgF1w==",
+      "type": "package",
+      "path": "sixlabors.imagesharp/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/SixLabors.ImageSharp.props",
+        "lib/net6.0/SixLabors.ImageSharp.dll",
+        "lib/net6.0/SixLabors.ImageSharp.xml",
+        "sixlabors.imagesharp.128.png",
+        "sixlabors.imagesharp.3.1.4.nupkg.sha512",
+        "sixlabors.imagesharp.nuspec"
+      ]
+    },
+    "System.ComponentModel.Composition/8.0.0": {
+      "sha512": "bGhUX5BTivJ9Wax0qnJy7uGq7dn/TQkEpJ2Fpu1etg8dbPwyDkUzNPc1d3I2/jUr9y4wDI3a1dkSmi8X21Pzbw==",
+      "type": "package",
+      "path": "system.componentmodel.composition/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.ComponentModel.Composition.targets",
+        "lib/net462/_._",
+        "lib/net6.0/System.ComponentModel.Composition.dll",
+        "lib/net6.0/System.ComponentModel.Composition.xml",
+        "lib/net7.0/System.ComponentModel.Composition.dll",
+        "lib/net7.0/System.ComponentModel.Composition.xml",
+        "lib/net8.0/System.ComponentModel.Composition.dll",
+        "lib/net8.0/System.ComponentModel.Composition.xml",
+        "lib/netstandard2.0/System.ComponentModel.Composition.dll",
+        "lib/netstandard2.0/System.ComponentModel.Composition.xml",
+        "system.componentmodel.composition.8.0.0.nupkg.sha512",
+        "system.componentmodel.composition.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Ulid/1.3.3": {
+      "sha512": "58eRa3gxKiTNXbGYUCy2T3biFAQehB+yBFKXoBGLjZbhBxbU1VUV5QnMgPNAU7gb2HZy3M6703pcUrC4p4IViA==",
+      "type": "package",
+      "path": "ulid/1.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/Ulid.dll",
+        "lib/net6.0/Ulid.xml",
+        "lib/net7.0/Ulid.dll",
+        "lib/net7.0/Ulid.xml",
+        "lib/net8.0/Ulid.dll",
+        "lib/net8.0/Ulid.xml",
+        "lib/netstandard2.0/Ulid.dll",
+        "lib/netstandard2.0/Ulid.xml",
+        "lib/netstandard2.1/Ulid.dll",
+        "lib/netstandard2.1/Ulid.xml",
+        "ulid.1.3.3.nupkg.sha512",
+        "ulid.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "DevToys.Api >= 2.0.4-preview",
+      "Ulid >= 1.3.3"
+    ]
+  },
+  "packageFolders": {
+    "/Users/diegomoura/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/diegomoura/projects/DevToys.UlidGenerator/UlidGenerator/UlidGenerator.csproj",
+      "projectName": "UlidGenerator",
+      "projectPath": "/Users/diegomoura/projects/DevToys.UlidGenerator/UlidGenerator/UlidGenerator.csproj",
+      "packagesPath": "/Users/diegomoura/.nuget/packages/",
+      "outputPath": "/Users/diegomoura/projects/DevToys.UlidGenerator/UlidGenerator/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/diegomoura/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "DevToys.Api": {
+            "target": "Package",
+            "version": "[2.0.4-preview, )"
+          },
+          "Ulid": {
+            "target": "Package",
+            "version": "[1.3.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
