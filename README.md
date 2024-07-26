@@ -9,4 +9,4 @@ This extension generates [ULID](https://github.com/ulid/spec) (Universally Uniqu
 # Installation
 
 ---
-Package is released and ready to use here: https://www.nuget.org/packages/DevToys.JsonToCsharp Installation guide is added to Nuget page.
+Package is released and ready to use here: https://www.nuget.org/packages/DevToys.UlidGenerator Installation guide is added to Nuget page.
